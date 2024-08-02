@@ -1,0 +1,60 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:wohnung_ohde_golf/Resources/Public/Images/logo-zimmer.webp
+        fileInverted = EXT:wohnung_ohde_golf/Resources/Public/Images/logo-zimmer.webp
+        height = 52
+        width = 192
+        alt = Wohnung Ohde-Golf
+        linktitle = Wohnung Ohde-Golf
+    }
+    favicon {
+        file = EXT:wohnung_ohde_golf/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:wohnung_ohde_golf/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:wohnung_ohde_golf/Resources/Private/Partials/Page/
+        templateRootPath = EXT:wohnung_ohde_golf/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:wohnung_ohde_golf/Resources/Private/Layouts/
+        partialRootPath = EXT:wohnung_ohde_golf/Resources/Private/Partials/
+        templateRootPath = EXT:wohnung_ohde_golf/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:wohnung_ohde_golf/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:wohnung_ohde_golf/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:wohnung_ohde_golf/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}

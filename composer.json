@@ -1,0 +1,22 @@
+{
+    "name": "hubertus-golf/wohnung-ohde-golf",
+	"version": "1.0.0",
+    "type": "typo3-cms-extension",
+    "description": "Vorstellung der Wohnung",
+    "homepage": "https://www.hubertus-golf.de",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^13.0 || ^14.0 || ^15.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HubertusGolf\\WohnungOhdeGolf\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "wohnung_ohde_golf"
+        }
+    }
+}
