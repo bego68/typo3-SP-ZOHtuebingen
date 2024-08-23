@@ -5,14 +5,14 @@ call_user_func(function()
     /**
      * Temporary variables
      */
-    $extensionKey = 'wohnung_ohde_golf';
+    $extensionKey = 'zoh_tuebingen';
 
     /**
-     * Default PageTS for WohnungOhdeGolf
+     * Default PageTS for ZOH tübingen
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
         $extensionKey,
         'Configuration/TsConfig/Page/All.tsconfig',
-        'Wohnung Ohde-Golf'
+        'ZOH tübingen'
     );
 });

@@ -1,4 +1,4 @@
-Sitepackage for the project "Wohnung Ohde-Golf"
+Sitepackage for the project "ZOH Tübingen"
 ==============================================================
 
 Add some explanation here.

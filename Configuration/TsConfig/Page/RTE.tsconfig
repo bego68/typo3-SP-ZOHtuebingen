@@ -3,6 +3,6 @@
 #############
 RTE {
     default {
-        preset = wohnung_ohde_golf
+        preset = zoh_tuebingen
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "hubertus-golf/wohnung-ohde-golf",
+    "name": "hubertus-golf/zoh-tuebingen",
 	"version": "1.0.0",
     "type": "typo3-cms-extension",
     "description": "Vorstellung der Wohnung",
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "HubertusGolf\\WohnungOhdeGolf\\": "Classes/"
+            "HubertusGolf\\ZohTuebingen\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "wohnung_ohde_golf"
+            "extension-key": "zoh-tuebingen"
         }
     }
 }

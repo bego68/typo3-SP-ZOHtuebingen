@@ -9,7 +9,7 @@
 ##############
 page {
     includeCSS {
-        theme = EXT:wohnung_ohde_golf/Resources/Public/Scss/Theme/theme.scss
+        theme = EXT:zoh_tuebingen/Resources/Public/Scss/Theme/theme.scss
     }
 
     includeJSLibs {
@@ -25,6 +25,6 @@ page {
     }
 
     includeJSFooter {
-        wohnung_ohde_golf_scripts = EXT:wohnung_ohde_golf/Resources/Public/JavaScript/Dist/scripts.js
+       zoh_tuebingen_scripts = EXT:wohnung_ohde_golf/Resources/Public/JavaScript/Dist/scripts.js
     }
 }

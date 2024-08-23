@@ -1,9 +1,9 @@
 {
-  "name": "hubertus-golf-wohnung-ohde-golf",
-  "description": "Vorstellung der Wohnung",
+  "name": "hubertus-golf-zoh-tuebingen",
+  "description": "Vorstellung ZOH Tübingen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bego68/typo3spwohnung"
+    "url": "https://github.com/bego68/typo3-SP-ZOHtuebingen"
   },
   "homepage": "https://www.hubertus-golf.de",
   "author": "Hubertus golf",

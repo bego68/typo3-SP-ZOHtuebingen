@@ -4,7 +4,7 @@
  * Extension Manager/Repository config file for ext "wohnung_ohde_golf".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Wohnung Ohde-Golf',
+    'title' => 'ZOH Tuebingen',
     'description' => 'Vorstellung der Wohnung',
     'category' => 'templates',
     'constraints' => [
@@ -16,7 +16,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'HubertusGolf\\WohnungOhdeGolf\\' => 'Classes',
+            'HubertusGolf\\ZohTuebingen\\' => 'Classes',
         ],
     ],
     'state' => 'stable',

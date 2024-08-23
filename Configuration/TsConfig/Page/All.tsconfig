@@ -1,7 +1,7 @@
 #
 # PageTS for Wohnung Ohde-Golf
 #
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wohnung_ohde_golf/Configuration/TsConfig/Page/RTE.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wohnung_ohde_golf/Configuration/TsConfig/Page/TCEFORM.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wohnung_ohde_golf/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wohnung_ohde_golf/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">
