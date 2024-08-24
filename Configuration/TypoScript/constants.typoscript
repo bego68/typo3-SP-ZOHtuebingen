@@ -9,15 +9,15 @@
 ############
 page {
     logo {
-        file = EXT:zoh_tuebingen/Resources/Public/Images/logo-zimmer.webp
-        fileInverted = EXT:zoh_tuebingen/Resources/Public/Images/logo-zimmer.webp
+        file = EXT:zoh_tuebingen/Resources/Public/Images/logo.svg
+        fileInverted = EXT:zoh_tuebingen/Resources/Public/Images/logo-inverted.svg
         height = 52
         width = 192
-        alt = Wohnung Ohde-Golf
-        linktitle = Wohnung Ohde-Golf
+        alt = ZOH Tübingen
+        linktitle = ZOH Tübingen
     }
     favicon {
-        file = EXT:zoh_tuebingen/Resources/Public/Icons/favicon.ico
+        file = EXT:zoh_tuebingen/Resources/Public/Icons/favicon.svg
     }
     fluidtemplate {
         layoutRootPath = EXT:zoh_tuebingen/Resources/Private/Layouts/Page/
@@ -55,6 +55,6 @@ plugin.bootstrap_package_contentelements {
 ### BOOTSTRAP SCSS CONSTANTS ###
 ################################
 plugin.bootstrap_package.settings.scss {
-    primary = #f04078
-    secondary = #004d7d
+    primary = #eb3e4a
+    secondary = #013859
 }

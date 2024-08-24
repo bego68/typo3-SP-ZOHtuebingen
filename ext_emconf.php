@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "wohnung_ohde_golf".
+ * Extension Manager/Repository config file for ext "zoh_tuebingen".
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'ZOH Tuebingen',
-    'description' => 'Vorstellung der Wohnung',
+    'title' => 'ZOH Tübingen',
+    'description' => 'Sitepackage für eine Praxis Homepage',
     'category' => 'templates',
     'constraints' => [
         'depends' => [
@@ -16,15 +16,15 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'HubertusGolf\\ZohTuebingen\\' => 'Classes',
+            'HubertusGolfItUndDigitalisierungsberatung\\ZohTuebingen\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
-    'author' => 'Hubertus golf',
+    'author' => 'Hubertus Golf',
     'author_email' => 'info@hubertus-golf.de',
-    'author_company' => 'Hubertus Golf',
+    'author_company' => 'Hubertus Golf - IT- und Digitalisierungsberatung',
     'version' => '1.0.0',
 ];

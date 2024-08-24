@@ -8,11 +8,11 @@ call_user_func(function()
     $extensionKey = 'zoh_tuebingen';
 
     /**
-     * Default PageTS for ZOH tübingen
+     * Default PageTS for ZohTuebingen
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
         $extensionKey,
         'Configuration/TsConfig/Page/All.tsconfig',
-        'ZOH tübingen'
+        'ZOH Tübingen'
     );
 });

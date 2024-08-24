@@ -1,5 +1,5 @@
 #
-# PageTS for Wohnung Ohde-Golf
+# PageTS for ZOH Tübingen
 #
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/RTE.tsconfig">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:zoh_tuebingen/Configuration/TsConfig/Page/TCEFORM.tsconfig">

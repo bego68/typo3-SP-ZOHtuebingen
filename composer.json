@@ -1,22 +1,27 @@
 {
-    "name": "hubertus-golf/zoh-tuebingen",
-	"version": "1.0.0",
+    "name": "hubertus-golf-it-und-digitalisierungsberatung/zoh-tuebingen",
     "type": "typo3-cms-extension",
-    "description": "Vorstellung der Wohnung",
+    "description": "Sitepackage für eine Praxis Homepage",
     "homepage": "https://www.hubertus-golf.de",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
     "require": {
-        "bk2k/bootstrap-package": "^13.0 || ^14.0 || ^15.0"
+        "bk2k/bootstrap-package": "^13.0 || ^14.0"
     },
     "autoload": {
         "psr-4": {
-            "HubertusGolf\\ZohTuebingen\\": "Classes/"
+            "HubertusGolfItUndDigitalisierungsberatung\\ZohTuebingen\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "zoh-tuebingen"
+            "extension-key": "zoh_tuebingen"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true
         }
     }
 }

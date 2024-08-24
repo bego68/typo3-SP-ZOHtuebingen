@@ -8,7 +8,7 @@ call_user_func(function()
     $extensionKey = 'zoh_tuebingen';
 
     /**
-     * Default TypoScript for ZOH Tuebingen
+     * Default TypoScript for ZohTuebingen
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,

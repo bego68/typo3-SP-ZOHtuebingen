@@ -1,12 +1,12 @@
 {
-  "name": "hubertus-golf-zoh-tuebingen",
-  "description": "Vorstellung ZOH Tübingen",
+  "name": "hubertus-golf-it-und-digitalisierungsberatung-zoh-tuebingen",
+  "description": "Sitepackage für eine Praxis Homepage",
   "repository": {
     "type": "git",
     "url": "https://github.com/bego68/typo3-SP-ZOHtuebingen"
   },
   "homepage": "https://www.hubertus-golf.de",
-  "author": "Hubertus golf",
+  "author": "Hubertus Golf",
   "version": "1.0.0",
   "license": "GPL-2.0-or-later",
   "devDependencies": {

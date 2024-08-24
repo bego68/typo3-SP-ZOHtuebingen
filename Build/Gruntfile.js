@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         },
         banner: '/*!\n' +
             ' * ZOH Tübingen v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-            ' * Copyright 2024-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Copyright 2017-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under the <%= pkg.license %> license\n' +
             ' */\n',
         uglify: {
