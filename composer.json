@@ -6,7 +6,7 @@
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
     "require": {
-        "bk2k/bootstrap-package": "^13.0 || ^14.0"
+        "bk2k/bootstrap-package": "^13.0 || ^14.0 || dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -23,5 +23,6 @@
             "typo3/cms-composer-installers": true,
             "typo3/class-alias-loader": true
         }
-    }
+    },
+	"version": "1.0.0"	
 }
